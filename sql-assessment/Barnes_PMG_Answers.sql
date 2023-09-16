@@ -1,3 +1,4 @@
+# Ginny Barnes SQL Query Answers
 #Write a query to get the sum of impressions by day.
 select date, sum(impressions) from marketing_data group by date;
 
